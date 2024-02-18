@@ -13,7 +13,7 @@ type WeatherData struct {
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	returnvalue := events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body: "lol",
+		Body:       "lol",
 	}
 	return returnvalue, nil
 }
